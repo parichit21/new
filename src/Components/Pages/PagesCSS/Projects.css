@@ -1,0 +1,129 @@
+.project{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.project h2{
+margin: 0;
+padding: 0;
+}
+.Project__disc{
+    margin: 5px;
+    padding: 5px;
+    justify-content: center;
+    text-align: center;
+}
+.grid3{
+    color: white;
+    /* background-color: black; */
+}
+.grid__cardstart{
+    color: white;
+    /* background-color: black;
+   */
+}
+
+.card__heading{
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    margin: 5px;
+    padding: 5px;
+  
+}
+/* .card{
+    margin: 5px;
+    padding: 5px;
+    color: white;    
+} */
+.card__para{
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+.button__github{
+    margin: 5px;
+    padding: 5px;
+    border: 2px;
+    text-align: center;
+    justify-content: center;
+}
+.services__wrapper {
+    margin: 5px;
+    padding: 5px;
+    justify-content: center;
+    display: flex;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr; */
+}
+.services__card {
+    margin: 10px;
+    height: 425px;
+    width: 300px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    transition: 00.3s ease-in;
+}
+.project__image{
+    margin: 2px;
+    padding: 2px;
+}
+.services__card h2 {
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+
+.services__card p {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+    padding: 5px;
+}
+.btn__div{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+}
+.services__btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+    padding: 5px;
+}
+/* .services__btn:hover{
+    transform: scale(1.075);
+    transition: 0.3 ease-in;
+    cursor: pointer;
+
+} */
+.services__card button {
+    color: #fff;
+    padding: 14px 24px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #131313;
+    font-size: 1rem;
+}
+
+.services__card button:hover {
+    cursor: pointer;
+    width: 10rem;
+    transition: 0.3 ease-in;
+    transform: scale(1.075);
+}
+
+.services__card:hover {
+    transform: scale(1.075);
+    transition: 0.3 ease-in;
+    cursor: pointer;
+}

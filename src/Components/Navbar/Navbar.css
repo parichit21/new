@@ -1,0 +1,145 @@
+.navbar{
+    /* margin: 2px;
+    padding: 2px; */
+    background-color: black;
+    display: flex;
+    position: -webkit-sticky;
+    z-index: 999;
+
+    
+}
+.navbar__container{
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    /* white-space: nowrap; */
+}
+.list{
+    padding: 5px;
+    margin: 5px;
+    justify-content: flex-end;
+    display: flex;
+    list-style-type: none;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.list li {
+    padding: 6px;
+    margin: 6px;  
+}
+.list li:hover{
+    transform: scale(1.075);
+    transition: 0.3 ease-in;
+    cursor: pointer;
+}
+.list a{
+    text-decoration: none;
+    color: white;     
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+.list a:hover{
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    transition: all 0.5s ease-in-out;
+    border-radius: 2px;
+    /* padding: 10px;
+    margin: 10px; */
+    
+
+}
+.fa-bars{
+    color: white;
+    display: none;
+  
+}
+.fa-times{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 5px;
+    margin: 20px;
+    
+}
+.nav-menu{
+    padding: 5px;
+    width: 5px;
+    margin: 5px;
+   
+}
+
+
+@media  (max-width: 800px) {
+ .list{
+     display: none;
+ }   
+/* .list a:hover{
+   
+    margin: 5px;
+    padding: 5px;
+    
+} */
+.fa-bars{
+    display: flex;
+    padding: 5px;
+    margin: 20px;
+    justify-content: flex-end;
+    text-align: center;
+}
+.fa-times{
+    color: white;
+}
+
+.nav-menu{
+     list-style-type: none;
+    font-weight: 700;
+    white-space: nowrap;
+    width: auto;
+    text-align: center;
+}
+
+
+.nav-menu :active{
+    margin: 5px;
+    padding: 5px;
+    width: 5px;
+   
+}
+.nav-menu a{
+    text-decoration: none;
+    color: white;     
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    /* margin: 5px;
+    padding: 5px; */
+   
+}
+.nav-menu a:hover{
+    margin: 10px;
+    padding: 10px;
+  
+}
+.nav-menu li{
+    margin: 5px;
+    padding: 5px;
+  
+    
+}
+.nav-menu a:hover{
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    transition: all 0.5s ease-in-out;
+    border-radius: 2px;
+    /* margin: 5px;
+    padding: 5px; */
+   
+  
+
+}
+
+
+
+}

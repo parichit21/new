@@ -1,0 +1,28 @@
+.name h1{
+    font-family: 'Courgette', cursive;
+}
+.name h1:hover{
+    background-position: 0 100%;
+    background:linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+   transition: background-position 275ms ease;
+   cursor: pointer;
+}
+.name p{
+    font-family: 'Lobster', cursive;
+}
+.name p :hover{
+    background-position: 0 100%;
+    background:linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+   transition: background-position 275ms ease;
+   cursor: pointer;
+}

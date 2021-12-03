@@ -1,0 +1,146 @@
+.card{
+    background-color: black;
+    color: white;
+   padding: 5px;
+}
+.card__container{
+
+   
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    transition: 0.3s;
+    animation: ease-in-out;
+    margin: 10px;
+    padding: 10px;
+    /* cursor: pointer; */
+  
+}
+.card__container:hover{
+    transform: scale(1.0);
+    box-shadow: 0px 0px 15px 0px;
+    /* margin: 10px; */
+    margin: 10px;
+    padding: 10px;
+
+}
+.image__container img{
+    overflow: hidden;
+    height: 300px;
+    margin: 5px;
+    padding: 5px;
+    object-fit: cover;
+}
+.card_title{
+    margin: 5px;
+    padding: 5px;
+}
+.card_title h2{
+    margin: 2px;
+    padding: 2px;
+    justify-content: center;
+    text-align: center;
+}
+.card_body{
+    margin: 2px;
+    padding: 2px;
+}
+.card_body p{
+    margin: 2px;
+    padding: 2px;
+    text-align: center;
+
+}
+.btn{
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+.read__btn{
+   
+    /* margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+     */
+     color: white;
+     border-color: rgba(7, 7, 8, 0);
+     background-color: black;
+     cursor: pointer;
+        
+}
+
+.read__btn:hover{
+  background-position: 0 100%;
+  background:linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);   background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;  
+}
+
+@media screen and (max-width: 780px) {
+
+
+    .card__container{
+        width:  auto;
+        height: auto;
+    }
+
+    .image__container img{
+        width: 200px;
+        height: 200px;
+    }
+
+}
+
+
+.container{
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    transition: 0.3s;
+    animation: ease-in-out;
+}
+.small__container{
+    display: flex;
+}
+.container:hover{
+    transform: scale(1.0);
+    box-shadow: 0px 0px 15px 0px;
+    /* margin: 10px; */
+    margin: 10px;
+    padding: 10px;
+
+}
+.img__container{
+
+    overflow: hidden;
+    /* height: 200px;
+    width: 200px; */
+    margin: 5px;
+    padding: 5px;
+    
+}
+.img__container img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.title{
+    margin: 5px;
+    padding: 5px;
+    /* text-align: center; */
+    justify-content: center;
+    margin-top: 1.2rem;
+
+}
+
+.body{
+        margin: 5px;
+        padding: 5px;
+        text-align: center;
+
+    }

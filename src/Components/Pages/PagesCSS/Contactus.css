@@ -1,0 +1,124 @@
+.contactus__background{
+background-color: black;
+color: white;
+}
+.quotes{
+    margin: 5px;
+    padding: 5px;
+}
+.quotes p{
+    margin: 10px;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding: 10px;
+}
+.quotes h4{
+    margin: 5px;
+    margin-right: 90px;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+    color:#1976d2;
+    cursor: pointer;
+    font-family: 'Petemoss', cursive;
+}
+.heading{
+    margin: 5px;
+    padding: 5px;
+    justify-content: center;
+    text-align: center;
+}
+.heading h1{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Petemoss', cursive;
+}
+
+.heading h2{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Petemoss', cursive;
+    }
+
+
+.devider__container{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+}
+.mainpage__devider{
+    display: flex;
+    height: 0;
+    margin: 5px;
+    width: 220px;
+    border: 1px solid #dbdbdb;
+    margin-top: 35px;
+    padding: 0;
+    margin-left: 16rem;
+}
+.mainpage__devider1{
+    display: flex;
+    height: 0;
+    margin: 5px;
+    width: 220px;
+    border: 1px solid #dbdbdb;
+    margin-top: 35px;
+    padding: 0;
+    justify-content: center;
+    /* margin-left: 16rem; */
+}
+.line{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    justify-content: center;
+}
+
+.form{
+    display: grid;
+    margin: 5px;
+    padding: 5px;
+    justify-content: center;
+    text-align: center;
+   
+}
+.form-field{
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-width: 16rem;
+    border-radius: 2rem;
+}
+.send__button{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    justify-content: center;
+    
+}
+.social__bar{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    margin-top: 5rem;
+    padding: 5px;
+    font-family: 'Dancing Script',cursive;
+}
+
+.icons__comp{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    justify-content: center;
+   
+    
+}
+
+.social__icon{
+/* margin: 5px; */
+margin-top: 5px;
+padding: 5px;
+justify-content: center;
+
+
+}

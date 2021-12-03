@@ -1,0 +1,186 @@
+.Home__background{
+    color: white;
+    background-color: black;
+    /* margin: 0; */
+    /* padding: 0; */
+    /* margin-bottom: 6rem; */
+    
+}
+.left__container{
+    margin: 5px;
+    padding: 5px;
+}
+.image__container{
+    margin: 10px;
+    padding: 5px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+  
+}
+.image{
+    /* width: 400px; */
+    /* height: 400px; */
+    border-radius: 270px;
+
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+    margin-bottom: 4rem;
+}
+.description{
+    margin: 5px;
+    padding: 5px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 9rem;
+    margin-bottom: 4rem;
+}
+.description h3{
+    font-weight: 100;
+    font-style: none;
+}
+.button{
+    color: white;
+    border-color: white;
+    
+}
+.button:hover{
+
+    background-position: 0 100%;
+    background:linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+   transition: background-position 275ms ease;  
+}
+.mail__icon{
+    padding: 5px;
+    margin: 5px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    
+}
+.mail__envelope{
+    margin: 5px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5rem;
+}
+.mail__icon a:hover{
+    background-position: 0 100%;
+    background:linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+   transition: background-position 275ms ease; 
+}
+.icons{
+    color: white;
+    margin: 5px;
+    padding: 5px;
+   display: grid;
+   list-style: none;
+   text-decoration: none;
+   grid-gap: 10px;
+   justify-content: center;
+   margin-top: 4rem;
+}
+.Aim__block{
+    margin: 5px;
+    padding: 5px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    
+}
+.Aim__block p{
+    margin: 5px;
+    padding: 5px;
+    justify-content: center;
+    display: flex;
+
+    
+}
+.Aim__block h2:hover{
+    background-position: 0 100%;
+    background:linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+   transition: background-position 275ms ease;  
+
+}
+
+.Aim__block p:hover{
+    background-position: 0 100%;
+    background:linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+   transition: background-position 275ms ease;  
+
+}
+.phone{
+    margin: 5px;
+    padding: 5px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.phone__icon{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 5px;
+padding: 5px;
+margin-left: 2rem;
+}
+
+.phone a:hover{
+    background-position: 0 100%;
+    background:linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+   transition: background-position 275ms ease;  
+
+}
+/* .phone h2{
+    margin: 5px;
+    padding: 5px;
+    justify-content: center;
+    display: flex;
+}
+.phone p{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    justify-content: center;
+} */
+
+.Aim__block h2{
+    margin: 5px;
+    padding: 5px;
+    justify-content: center;
+    display: flex;
+    margin-top: 6px;
+    
+}
+
+.Aim__block p{
+    margin: 5px;
+    padding: 5px;
+    justify-content: center;
+    margin-top: 1rem;
+}

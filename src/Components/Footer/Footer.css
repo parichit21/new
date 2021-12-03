@@ -1,0 +1,116 @@
+.Footer{
+    background-color: black;
+    grid-template-columns: repeat(auto-fit,minmax(600px,1fr));
+}
+.name__comp{
+color: white;
+text-align: center;
+margin: 5px;
+padding: 5px;
+}
+
+.name__comp:hover{
+    background-position: 0 100%;
+    background:linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+   transition: background-position 275ms ease;  
+
+}
+.about__comp{
+color: white;
+padding: 5px;
+margin: 5px;
+text-align: center;
+
+}
+.about__comp h2:hover{
+    background-position: 0 100%;
+    background:linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+   transition: background-position 275ms ease;  
+}
+.footer__ul{
+  color: white;
+  margin: 5px;
+  padding: 5px;
+}
+.footer__li{
+    color: white;
+    text-align: center;
+    list-style-type: none;
+
+}
+.footer__li a{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+.footer__li a:hover {
+    background-position: 0 100%;
+    background:linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+   transition: background-position 275ms ease;  
+}
+
+.contactme__comp{
+color: white;
+text-align: center;
+margin: 5px;
+padding: 5px;
+
+}
+.contactme__comp h2:hover{
+    background-position: 0 100%;
+    background:linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+   transition: background-position 275ms ease;  
+}
+
+.copyright{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+}
+.copyright p:hover{
+    background-position: 0 100%;
+    background:linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+   transition: background-position 275ms ease;  
+}
+.icons__comp{
+/* color: white; */
+/* width: 5px; */
+margin: 5px;
+padding: 5px;
+justify-content: center;
+text-align: -webkit-center;
+display: flex;
+}
+.icons{
+    color: white;
+    margin: 5px;
+    padding: 5px;
+}
